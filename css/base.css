@@ -50,3 +50,90 @@ h1 {
 main {
   flex-grow: 1;
 }
+
+.header__container {
+  position: relative;
+  right: 19rem;
+}
+
+.site__nav {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  width: 123rem;
+}
+.site__nav-img {
+  margin-right: 6rem;
+}
+.site__nav-list {
+  display: flex;
+  gap: 4rem;
+}
+
+.site__nav-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.56rem;
+  text-align: left;
+  color: #424551;
+  width: 7.1rem;
+
+  &:hover {
+    color: #ff5a30;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.contact__images {
+  display: flex;
+  gap: 3.6rem;
+  margin-left: 17.2rem;
+}
+
+.talk__to__us {
+  display: flex;
+  flex-direction: column;
+  /* width: 12.3rem; */
+}
+
+.call__us {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.call__us-text {
+  display: flex;
+  flex-direction: column;
+  width: 15.8rem;
+}
+
+.contact-span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  text-align: left;
+  color: #424551;
+}
+
+.call__us-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  text-align: left;
+  color: #1e212c;
+
+  &:hover {
+    color: #ff5a30;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
