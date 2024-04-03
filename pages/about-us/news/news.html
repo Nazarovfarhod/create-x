@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/global.css" />
-    <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../../css/global.css" />
+
+    <link rel="stylesheet" href="../news/news.css" />
   </head>
   <body>
     <!-- HEADER START -->
     <header class="header">
-      <div class="container header__container">
+      <div class="header__container container">
         <nav>
           <div class="site__nav">
             <img
               class="site__nav-img"
-              src="./images/nav-icon.svg"
+              src="../../../images/nav-icon.svg"
               alt=""
               width="130"
               height="22"
@@ -26,13 +27,17 @@
                 <a class="site__nav-link" href="#">About Us</a>
               </li>
               <li class="site__nav-itom">
-                <a  class="site__nav-link" href="./pages/about-us/services/services.html">Services</a>
+                <a
+                  class="site__nav-link"
+                  href="../../../pages/about-us/services/services.html"
+                  >Services</a
+                >
               </li>
               <li class="site__nav-itom">
                 <a class="site__nav-link" href="#">Work</a>
               </li>
               <li class="site__nav-itom">
-                <a class="site__nav-link" href="./pages/about-us/news/news.html">News</a>
+                <a class="site__nav-link" href="#">News</a>
               </li>
               <li class="site__nav-itom">
                 <a class="site__nav-link" href="#">Contacts</a>
@@ -42,7 +47,7 @@
                 <div class="call__us">
                   <img
                     class="call__us-img"
-                    src="./images/header-iphone-img.svg"
+                    src="../../../images/header-iphone-img.svg"
                     alt=""
                     width="40"
                     height="40"
@@ -58,14 +63,14 @@
                 <div class="call__us">
                   <img
                     class="call__us-img"
-                    src="./images/header-messeg-img.svg"
+                    src="../../../images/header-messeg-img.svg"
                     alt=""
                     width="40"
                     height="40"
                   />
                   <div class="talk__to__us-text">
                     <span class="contact-span">Talk to us</span>
-                    <a class="call__us-link" href="mailto:hello@createx.com"
+                    <a class="call__us-link" href="email:hello@createx.com"
                       >hello@createx.com</a
                     >
                   </div>
@@ -74,14 +79,167 @@
             </ul>
           </div>
         </nav>
+        <a class="header__container-text" href="../../../index.html">
+          Homepage &nbsp; / &nbsp;
+
+        </a>
+        <span class="header__container-text-services">News </span>
+
+        <div class="header__container__content">
+          <h1 class="header__container__content-title">NEWS</h1>
+          <p class="header__container__content-description">
+            Stay tuned with our news, expert tips and articles.
+          </p>
+        </div>
+      </div>
+      </div>
     </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
     <main class="main">
-      <div class="main__container container">
+      <section class="categories">
+        <div class="categories__container container">
+          <h1 class="categories__container-title">Categories</h1>
 
-      </div>
+          <ul class="categories__container-list">
+            <li class="categories__container-item"><a class="categories__container-link" href="#">All News</a></li>
+            <li class="categories__container-item"><a class="categories__container-link" href="#">Company News</a></li>
+            <li class="categories__container-item"><a class="categories__container-link" href="#">Innovation</a></li>
+            <li class="categories__container-item"><a class="categories__container-link" href="#">Industry News</a></li>
+            <li class="categories__container-item"><a class="categories__container-link" href="#">Expert Tips</a></li>
+            <li class="categories__container-item"><a class="categories__container-link" href="#">Marketing</a></li>
+          </ul>
+
+          <div class="cards">
+            <div class="cards__card">
+              <img class="cards__card-img" src="./images/how-to-build.png" alt="">
+
+              <div class="cards__card-text">
+                <h2 class="cards__card-title">How to Build Climate Change-Resilient Infrastructure</h2>
+                <div class="spans">
+                 <a class="spans__link" href="">Industry News</a>
+                 <span>|</span>
+                 <a class="spans__link" href="">June 24, 2020</a>
+                 <span>|</span>
+                 <div class="comment-img">
+                   <img class="span-img" src="./images/Chat.svg" alt="">
+                   <a class="spans__link" href="">4 comments</a>
+                 </div>
+                </div>
+                <p class="cards__card-description">Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer bibendum turpis convallis...</p>
+              </div>
+
+            </div>
+            <div class="cards__card">
+              <img class="cards__card-img" src="./images/how-constraction.png" alt="">
+
+              <div class="cards__card-text">
+                <h2 class="cards__card-title">How Construction Can Help Itself</h2>
+                <div class="spans">
+                 <a class="spans__link" href="">Innovation</a>
+                 <span>|</span>
+                 <a class="spans__link" href="">June 12, 2020</a>
+                 <span>|</span>
+                 <div class="comment-img">
+                   <img class="span-img" src="./images/Chat.svg" alt="">
+                   <a class="spans__link" href="">No comments</a>
+                 </div>
+                </div>
+                <p class="cards__card-description">Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae scelerisque. Rhoncus augue faucibus maecenas lacus...</p>
+              </div>
+
+            </div>
+            <div class="cards__card">
+              <img class="cards__card-img" src="./images/diferense-between-cars.png" alt="">
+
+              <div class="cards__card-text">
+                <h2 class="cards__card-title">The Difference Between a Digger and an Excavator</h2>
+                <div class="spans">
+                 <a class="spans__link" href="">Expert Tips</a>
+                 <span>|</span>
+                 <a class="spans__link" href="">May 16, 2020</a>
+                 <span>|</span>
+                 <div class="comment-img">
+                   <img class="span-img" src="./images/Chat.svg" alt="">
+                   <a class="spans__link" href="">No comments</a>
+                 </div>
+                </div>
+                <p class="cards__card-description">Cras est nisi purus velit facilisi vitae, dolor. Lorem scelerisque integer duis et nulla lobortis cursus. Viverra erat sollicitudin praesent viverra...</p>
+              </div>
+
+            </div>
+            <div class="cards__card">
+              <img class="cards__card-img" src="./images/building-constraction.png" alt="">
+
+              <div class="cards__card-text">
+                <h2 class="cards__card-title">Building Construction Hand Tools</h2>
+                <div class="spans">
+                 <a class="spans__link" href="">Expert Tips</a>
+                 <span>|</span>
+                 <a class="spans__link" href="">February 25, 2020</a>
+                 <span>|</span>
+                 <div class="comment-img">
+                   <img class="span-img" src="./images/Chat.svg" alt="">
+                   <a class="spans__link" href="">1 comment</a>
+                 </div>
+                </div>
+                <p class="cards__card-description">Tellus quis aliquet volutpat nunc pulvinar donec sed sapien. Vitae elit id dolor, tristique massa. Fames lobortis orci rutrum bibendum integer...</p>
+              </div>
+
+            </div>
+            <div class="cards__card">
+              <img class="cards__card-img" src="./images/constructions.png" alt="">
+
+              <div class="cards__card-text">
+                <h2 class="cards__card-title">Top 10 Construction Trends</h2>
+                <div class="spans">
+                 <a class="spans__link" href="">Industry News</a>
+                 <span>|</span>
+                 <a class="spans__link" href="">January 14, 2020</a>
+                 <span>|</span>
+                 <div class="comment-img">
+                   <img class="span-img" src="./images/Chat.svg" alt="">
+                   <a class="spans__link" href="">No comments</a>
+                 </div>
+                </div>
+                <p class="cards__card-description">Dignissim sed enim, eleifend morbi condimentum. Congue id quis vulputate dignissim eget. Ac ullamcorper nunc habitasse enim interdum platea...</p>
+              </div>
+
+            </div>
+            <div class="cards__card">
+              <img class="cards__card-img" src="./images/types-of-flooring.png" alt="">
+
+              <div class="cards__card-text">
+                <h2 class="cards__card-title">Types of Flooring Materials</h2>
+                <div class="spans">
+                 <a class="spans__link" href="">Company News</a>
+                 <span>|</span>
+                 <a class="spans__link" href="">December 1, 2019</a>
+                 <span>|</span>
+                 <div class="comment-img">
+                   <img class="span-img" src="./images/Chat.svg" alt="">
+                   <a class="spans__link" href="">No comments</a>
+                 </div>
+                </div>
+                <p class="cards__card-description">Maecenas donec lacinia nunc, quam sit magnis mauris. Neque bibendum et mauris, aenean. Vel arcu amet in sem parturient  integer duis et nulla...</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="pagenition">
+            <a class="page-number">1</a>
+            <a class="page-number">2</a>
+            <a class="page-number">3</a>
+            <a class="page-number">4</a>
+            <a class="page-number">&rarr;</a>
+          </div>
+        </div>
+
+
+
+
+      </section>
     </main>
     <!-- MAIN END -->
 
@@ -147,7 +305,7 @@
               <div class="footer__container__first-images">
                 <img
                   class="footer__container__first-img"
-                  src="./images/footer-icon.svg"
+                  src="../../../images/footer-icon.svg"
                   alt=""
                   width="142"
                   height="24"
@@ -156,7 +314,7 @@
                   <li class="footer__container__first-itom">
                     <a class="footer__container__first-link" href="#"
                       ><img
-                        src="./images/footer-whatsapp-img.svg"
+                        src="../../../images/footer-whatsapp-img.svg"
                         alt="footer icon"
                         width="24"
                         height="24"
@@ -165,7 +323,7 @@
                   <li class="footer__container__first-itom">
                     <a class="footer__container__first-link" href="#"
                       ><img
-                        src="./images/footer-messanger-img.svg"
+                        src="../../../images/footer-messanger-img.svg"
                         alt="footer icon"
                         width="24"
                         height="24"
@@ -174,7 +332,7 @@
                   <li class="footer__container__first-itom">
                     <a class="footer__container__first-link" href="#"
                       ><img
-                        src="./images/footer-facebook-img.svg"
+                        src="../../../images/footer-facebook-img.svg"
                         alt="footer icon"
                         width="24"
                         height="24"
@@ -183,7 +341,7 @@
                   <li class="footer__container__first-itom">
                     <a class="footer__container__first-link" href="#"
                       ><img
-                        src="./images/footer-twitter-img.svg"
+                        src="../../../images/footer-twitter-img.svg"
                         alt="footer icon"
                         width="24"
                         height="24"
@@ -192,7 +350,7 @@
                   <li class="footer__container__first-itom">
                     <a class="footer__container__first-link" href="#"
                       ><img
-                        src="./images/footer-youtube-img.svg"
+                        src="../../../images/footer-youtube-img.svg"
                         alt="footer icon"
                         width="24"
                         height="24"
@@ -282,7 +440,7 @@
                 © All rights reserved. Made with
                 <img
                   class="cophyright-text-img"
-                  src="./images/footer__heart.svg"
+                  src="../../../images/footer__heart.svg"
                   alt=""
                   width="16"
                   height="16"
@@ -294,7 +452,7 @@
               <p class="go-to-up">GO TO UP</p>
               <a class="up-img" href="#top"
                 ><img
-                  src="./images/Up-footer.svg"
+                  src="../../../images/Up-footer.svg"
                   alt=""
                   width="24"
                   height="24"
