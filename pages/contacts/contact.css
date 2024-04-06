@@ -217,6 +217,7 @@ header {
 
 textarea {
   width: 600px;
+  margin-bottom: 2rem;
 }
 .application__container__form-input-checbox {
   width: 600px;
