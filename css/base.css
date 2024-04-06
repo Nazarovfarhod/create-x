@@ -343,12 +343,11 @@ footer {
 
 .application {
   background-image: url(../images/application-bg-img.png);
-  /* width: 192rem; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* position: relative;
-  right: 30rem; */
+  padding-top: 8rem;
+
 }
 
 .application__container {
@@ -364,7 +363,7 @@ footer {
   width: 49.5rem;
   align-items: center;
   background-color: #fff;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   margin-bottom: 8rem;
 }
 
