@@ -29,7 +29,7 @@
                 <a class="site__nav-link" href="#">About Us</a>
               </li>
               <li class="site__nav-itom">
-                <a class="site__nav-link" href="#">Services</a>
+                <a class="site__nav-link" href="../about-us/services/services.html">Services</a>
               </li>
               <li class="site__nav-itom">
                 <a class="site__nav-link" href="#">Work</a>
@@ -103,17 +103,8 @@
           <div class="contact__us">
             <img class="contact__us-img" src="./images/contact-us-img.jpg" alt="" width="495" height="586">
             <form class="application__container__form" action="">
-              <h2 class="application__container__form-title">
-                A quick way to discuss details
-              </h2>
-              <div class="input-wrapper">
-                <label class="application__container__form-label">
-                  <span class="application-span">Name*</span>
-                  <input
-                    class="application__container__form-input"
-                    type="text"
-                    placeholder="Your name"
-                  />
+              <div class="input-wrappers">
+                <input-wrapper>
                   <label class="application__container__form-label">
                     <span class="application-span">Name*</span>
                     <input
@@ -121,41 +112,92 @@
                       type="text"
                       placeholder="Your name"
                     />
-                  </label>
+                </input-wrapper>
+                  <div class="input-wrapper">
+                    <label class="application__container__form-label">
+                      <span class="application-span">I am interested in</span>
+                      <input
+                        class="application__container__form-input"
+                        type="text"
+                        placeholder="Interior Design"
+                      />
+                    </label>
+                  </div>
   </div>
+              <div class="input-wrappers">
 
-              <label class="application__container__form-label">
-                <span class="application-span">Phone*</span>
-                <input
-                  class="application__container__form-input"
-                  type="text"
-                  placeholder="Your phone number"
-                />
-              </label>
-              <label class="application__container__form-label">
-                <span class="application-span">Email</span>
-                <input
-                  class="application__container__form-input"
-                  type="text"
-                  placeholder="Your working email"
-                />
-              </label>
+                <div class="input-wrapper">
+                  <label class="application__container__form-label">
+                    <span class="application-span">Phone*</span>
+                    <input
+                      class="application__container__form-input"
+                      type="text"
+                      placeholder="Your phone number"
+                    />
+                  </label>
+                </div>
+                <div class="input-wrapper">
+                  <label class="application__container__form-label">
+                    <span class="application-span">Location*</span>
+                    <input
+                      class="application__container__form-input"
+                      type="text"
+                      placeholder="New York"
+                    />
+                  </label>
+                </div>
+              </div>
 
-              <label class="application__container__form-label">
-                <span class="application-span">Message*</span>
-                <textarea placeholder="Your messeg" cols="53" rows="2"></textarea>
-              </label>
+               <div class="input-wrappers">
+
+                 <div class="input-wrapper">
+                   <label class="application__container__form-label">
+                     <span class="application-span">Email</span>
+                     <input
+                       class="application__container__form-input"
+                       type="text"
+                       placeholder="Your working email"
+                     />
+                   </label>
+                 </div>
+                 <div class="radio-span-wrapper">
+                   <span class="application-span">Preferred contact method</span>
+                   <div class="input-wrapper">
+                       <label class="radio-input">
+                        <input name="radio"
+                        class="radio"
+                        type="radio"
+                      />
+                      <span class="radiospan">Phone</span>
+                       </label>
+                       <label class="radio-input">
+                        <input name="radio"
+                        class="radio"
+                        type="radio"
+                      />
+                      <span class="radiospan">Email</span>
+                       </label>
+                       <label class="radio-input">
+                        <input name="radio"
+                        class="radio"
+                        type="radio"
+                      />
+                      <span class="radiospan">Viber</span>
+                       </label>
+                   </div>
+                 </div>
+               </div>
 
               <lable class="application__container__form-input-checbox"
                 ><input class="input-check" type="checkbox" />
                 <span class="checkbox-span"
                   >I agree to receive communications from Createx Construction
                   Bureau.</span
-                ></lable
+                >
+                <button type="submit" class="application-link btn">
+                  send request
+                </button></lable
               >
-              <button type="submit" class="application-link btn">
-                send request
-              </button>
             </form>
           </div>
         </div>

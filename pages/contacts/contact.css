@@ -137,11 +137,7 @@ header {
 
 .application {
   background-image: none;
-}
-
-.hero {
-}
-.hero__container {
+  padding: 0;
 }
 
 .hero__container-title {
@@ -155,52 +151,85 @@ header {
 }
 .hero__container-text {
   font-family: "Ubuntu", sans-serif;
-font-size: 1.8rem;
-font-weight: 400;
-line-height: 1.5;
-text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 6rem;
 }
 .contact__us {
   display: flex;
   gap: 13.5rem;
   align-items: center;
-  justify-content: center;
+  margin-bottom: 12rem;
 }
-.contact__us-img {
-}
+
 .application__container__form {
-  margin-top: 8rem;
+  width: 600px;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: left;
   align-items: start;
 }
-.application__container__form-title {
-}
-.application__container__form-label {
-}
-.application-span {
-}
+
 .application__container__form-input {
   width: 285px;
   text-align: left;
-  display: inline;
+}
+
+.radio-span-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.radio {
+  accent-color: #ff5a30;
+}
+
+.radiospan {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #424551;
+}
+/* label {
+  display: inline-block;
+} */
+.input-wrappers {
+  display: flex;
+  /* align-items: center; */
+  gap: 3rem;
+}
+
+.radio-input {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
 
 .input-wrapper {
   display: flex;
-
+  gap: 2.4rem;
 }
 
 textarea {
   width: 600px;
 }
 .application__container__form-input-checbox {
+  width: 600px;
 }
-.input-check {
-}
-.checkbox-span {
-}
+
 .application-link {
-}
-.btn {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 3.25;
+letter-spacing: 0.05rem;
+text-align: center;
+color: #fff;
+  width: 210px;
 }
