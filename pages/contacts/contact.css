@@ -7,11 +7,6 @@ header {
   margin-bottom: 12rem;
 }
 
-.header__container {
-  position: relative;
-  right: 13rem;
-}
-
 .site__nav {
   display: flex;
   margin-top: 2rem;
@@ -226,11 +221,152 @@ textarea {
 .application-link {
   text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
-font-size: 1.6rem;
-font-weight: 700;
-line-height: 3.25;
-letter-spacing: 0.05rem;
-text-align: center;
-color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 3.25;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  color: #fff;
   width: 210px;
+}
+
+select {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #424551;
+}
+
+.offices {
+  background-color: #f4f5f6;
+}
+.offices__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  padding-bottom: 9.5rem;
+  padding-left: 34.5rem;
+  padding-right: 34.5rem;
+}
+
+.offices__container-title {
+  margin-bottom: 2.4rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 1.27;
+  text-align: center;
+  color: #1e212c;
+}
+.offices__container-text {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #787a80;
+  margin-bottom: 6rem;
+}
+.offices__cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12rem;
+}
+.card {
+  width: 250px;
+}
+.card-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+  color: #1e212c;
+  margin-bottom: 2.4rem;
+}
+.card-location {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e212c;
+  width: 250px;
+  margin-bottom: 0.4rem;
+}
+.card-map {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #ff5a30;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.card__item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.card__item-span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #787a80;
+}
+.card__item-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e212c;
+}
+.offices-img {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.offices__container h2 {
+  margin-bottom: 4rem;
+}
+
+.offices__icons {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+}
+.icon {
+ font-size: 3.2rem;
+ color: #787A80;
+cursor: pointer;
+transition: 0.3s;
+
+}
+.whatsup:hover{
+  color: #075e54;
+}
+.mesaanger:hover{
+  color: #00b2ff;
+
+}
+.facebook:hover{
+  color: #1877f2;
+}
+.twitter:hover{
+  color: #1da1f2;
+}
+.youtube:hover{
+  color: #ff0000;
 }

@@ -7,10 +7,6 @@ header {
   margin-bottom: 12rem;
 }
 
-.header__container {
-  position: relative;
-  right: 13rem;
-}
 
 .site__nav {
   display: flex;
@@ -141,14 +137,14 @@ main {
 
 .main__container {
   background-image: url(./services-images/main__bg-img.svg);
-  width: 300rem;
-  height: 205rem;
+
 }
 
 .card__construction {
   display: flex;
   align-items: center;
-  gap: 8rem;
+  /* gap: 8rem; */
+  justify-content: space-between;
   margin-bottom: 12rem;
 }
 

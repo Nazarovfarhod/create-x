@@ -51,11 +51,6 @@ main {
   flex-grow: 1;
 }
 
-.header__container {
-  position: relative;
-  right: 19rem;
-}
-
 .site__nav {
   display: flex;
   margin-top: 2rem;
@@ -153,7 +148,7 @@ footer {
 
 .footer__top {
   display: flex;
-  justify-content: space-between;
+  gap: 24.2rem;
   margin-bottom: 5rem;
 }
 .footer__container__first {
@@ -254,6 +249,11 @@ footer {
   gap: 12.5rem;
 }
 
+.footer__site:nth-child(1) {
+  width: 349px;
+
+}
+
 .footer__site {
   margin-bottom: 6rem;
 }
@@ -347,6 +347,7 @@ footer {
   background-position: center;
   background-size: cover;
   padding-top: 8rem;
+  padding-right: 11rem;
 
 }
 
@@ -360,7 +361,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 4.8rem 4rem;
-  width: 49.5rem;
+  width: 50rem;
   align-items: center;
   background-color: #fff;
   /* margin-top: 8rem; */
